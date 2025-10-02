@@ -1,0 +1,30 @@
+<div class="container mt-5">
+  <h2 class="mb-4">Resume Upload</h2>
+  <form #resumeForm="ngForm">
+    <div class="mb-3">
+      <input
+        type="text"
+        class="form-control"
+        placeholder="Full Name"
+        [(ngModel)]="resume.name"
+        name="name"
+        required
+      />
+    </div>
+    <div class="mb-3">
+      <input
+        type="file"
+        class="form-control"
+        (change)="onFileSelect($event)"
+        accept=".pdf"
+        required
+      />
+    </div>
+    <button type="button" class="btn btn-primary me-2" (click)="upload()">
+      Upload
+    </button>
+    <button type="button" class="btn btn-secondary" (click)="clear()">
+      Clear
+    </button>
+  </form>
+</div>

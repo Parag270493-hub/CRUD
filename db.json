@@ -1,4 +1,22 @@
 {
-  "users": [],
-  "resumes": []
+  "users": [
+    {
+      "id": "e326",
+      "name": "Parag Giradkar",
+      "email": "parag@gmail.com",
+      "password": "abc@123"
+    }
+  ],
+  "resumes": [
+    {
+      "id": "0bf4",
+      "name": "Parag Giradkar",
+      "fileName": "CHANDRAPUR MASTERS BADMINTON TOURNAMENT 2025 OFFLINE ENTRY FORM (1).pdf"
+    },
+    {
+      "id": "12bd",
+      "name": "Abhaya",
+      "fileName": "EAadhaar_2821170660715120250128161345_16072025121041.pdf"
+    }
+  ]
 }

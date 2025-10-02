@@ -1,0 +1,17 @@
+<div class="container mt-5">
+  <h2>Submitted Resumes</h2>
+  <table class="table table-bordered mt-3">
+    <thead>
+      <tr>
+        <th>Name</th>
+        <th>File Name</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr *ngFor="let item of resumes">
+        <td>{{ item.name }}</td>
+        <td>{{ item.fileName }}</td>
+      </tr>
+    </tbody>
+  </table>
+</div>
